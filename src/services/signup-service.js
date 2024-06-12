@@ -3,7 +3,7 @@ import axios from "axios";
 export const signupHandler = async (username, number, email, password, setAlert) => {
   try {
     const data = await axios.post(
-      "https://nivas.cyclic.app/api/auth/register",
+      "https://nivas-backend-2eb3eacbbc13.herokuapp.com/api/auth/register",
       {
         username: username,
         number: number,

@@ -43,7 +43,7 @@ export const Home = () => {
     (async () => {
       try {
         const { data } = await axios.get(
-          `https://nivas.cyclic.app/api/hotels?category=${hotelCategory}`
+          `https://nivas-backend-2eb3eacbbc13.herokuapp.com/api/hotels?category=${hotelCategory}`
         );
         setTestData(data);
         setHotels(data ? data.slice(0, 16) : []);

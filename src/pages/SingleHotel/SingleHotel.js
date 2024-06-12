@@ -13,7 +13,7 @@ export const SingleHotel = () => {
     (async () => {
       try {
         const { data } = await axios.get(
-          `https://nivas.cyclic.app/api/hotels/${id}`
+          `https://nivas-backend-2eb3eacbbc13.herokuapp.com/api/hotels/${id}`
         );
         setSingleHotel(data);
       } catch (err) {

@@ -24,7 +24,7 @@ export const Categories = () => {
     (async () => {
       try {
         const { data } = await axios.get(
-          "https://nivas.cyclic.app/api/category"
+          "https://nivas-backend-2eb3eacbbc13.herokuapp.com/api/category"
         );
         const categoriesToShow = data.slice(
           numberOfcategoriesToShow + 10 > data.length

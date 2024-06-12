@@ -7,7 +7,7 @@ export const loginHandler = async (number, password) => {
             data: { accessToken:accessToken, username },
 
     } = await axios.post(
-      "https://nivas.cyclic.app/api/auth/login",
+      "https://nivas-backend-2eb3eacbbc13.herokuapp.com/api/auth/login",
       {
         number: number,
         password: password,
