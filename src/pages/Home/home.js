@@ -107,8 +107,8 @@ export const Home = () => {
           endMessage={
             <>
               <p className="alert-text">You have seen it all !
-                Built with 😁 by{" "}
-                <a href="https://codexdebayan.blogspot.com" target="_blank" style={{textDecoration: 'none'}}>Codex Debayan</a>
+                Built with 😁 by Nitin Chauhan
+                
               </p>
             </>
           }
